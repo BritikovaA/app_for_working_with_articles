@@ -9,7 +9,7 @@ class Model(DeclarativeBase):
 
 
 class Articles(Model):
-    __tablename__ = "artiles"
+    __tablename__ = "artiсles"
 
     id: Mapped[int] = mapped_column(primary_key=True)
     title: Mapped[str]
